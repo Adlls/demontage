@@ -1,0 +1,13 @@
+User-agent: *
+
+Disallow: /admin*
+
+Disallow: /adls*
+
+Disallow: /circlesquare*
+
+Allow: /index.html
+
+Sitemap: http://xn----7sbkbfh4biipakvt.xn--p1ai/sitemap.xml
+
+Host: xn----7sbkbfh4biipakvt.xn--p1ai

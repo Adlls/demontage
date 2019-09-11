@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Демонтаж групп</title>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+   <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
+
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous"> -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+ m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+ym(49293526, "init", {
+   id:49293526,
+   clickmap:true,
+   trackLinks:true,
+   accurateTrackBounce:true,
+   webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/49293526" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+</head>
+<body>
+
+
+<div class="popup">
+  <div class="floater"></div>
+  <div class="cont">
+    <div class="close-popup" onclick="closepopup();"><p>&#215;</p></div>
+
+     <div class="container-form" style="margin: 0 auto; width: 280px; padding-top: 80px;">
+  <form class="feedback-form"  action="mail.php" method="POST" id="bottom-form">
+ 
+
+       
+      <!-- Hidden Required Fields
+		<input type="hidden" name="project_name" value="Site Name">
+		<input type="hidden" name="admin_email" value="saidullaev9811@gmai.com">
+		<input type="hidden" name="form_subject" value="Form Subject">
+		 -->
+       
+      
+
+      <label class="title-form">Заказать</label>
+      <div class="group-form">
+        <input type="text" name="user_name" placeholder="Имя" required><br>
+        <input type="number" name="user_phone" placeholder="Телефон" required><br>
+        <input type="hidden" name="service" value="" id="serviceId">
+        <input type="submit" name="send" value="Заказать">
+
+
+      </div>
+     </form>
+        </div>
+        </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <!-- Шапка сайта -->
+
+<div class="header-page">
+  <div class="cover_bg">
+   <div class="wrapper clearfix">
+    <div class="contacts">
+      <p class="phone"> <i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+79108218246" style="color: black; text-decoration:none;">+7 (910) 821-82-46</a></p>
+      <p style=" margin-top: 5px;"><a href="mailto:yardemontage@mail.ru?subject=order" style="color: black; text-decoration:none;"> yardemontage@mail.ru</a></p>
+      <p class="place"> <i class="fa fa-map-marker" aria-hidden="true"></i> г. Ярославль </p>
+    </div>
+<div class="logo">
+      <h2 class="logo-text">ЯДСК</h2>
+      <p class="descript-logo">Ярославская демонтажно-строительная компания</p>
+
+  <div class="group-social">
+<div class="vk social-icon"><a href="https://vk.com/yardemgroupp"><i class="fa fa-vk"></i></a></div>
+<div class="instagram social-icon"><a href="https://www.instagram.com/demontagegroupp76/"><i class="fa fa-instagram"></i></a></div>
+</div>
+
+    </div>
+
+    <div class="promo">
+      <h1 class="text-promo">комплексный подход демонтажных работ под ключ <i class="fa fa-key" aria-hidden="true"></i> </h1> 
+      <h2 class="desc-promo">демонтаж производится ручным и
+механизированным способом</h2>
+<div class="line-bottom"></div>
+    </div>
+
+
+<div class="desc-promo_bottom">Ярославская Демонтажно-Строительная компания предоставляет комплексный подход демонтажных работ под ключ в Ярославле и Ярославской области. Гарантируем минимальные сроки выполнения качественных работ по самым приемлимым ценам</div>
+
+
+
+    <div class="action">
+      <div class="action-desc">
+        <img src="images/action_bg.png">
+        <p class="first-text">Выезд замерщика в
+день заявки</p>
+<p class="second-text">Работаем без выходных</p>
+      </div>
+    </div>
+
+      <div class="action-btn" onclick="showpopup('Заявка',document.getElementById('bottom-form'), true)">
+          <i class="fa fa-paper-plane" aria-hidden="true"></i>
+          <p class="desc-btn"><b>Отправить заявку</b></p>
+     </div>
+</div>
+</div>
+</div>
+
+
+<!--Преимущества-->
+
+<div class="advantages">
+  <div class="wrapper">
+<div class="beetwen-advan"></div>
+<h2 class="title-adv">Наши преимущества</h2>
+<div class="rect-adv"></div>
+<div class="clearfix">
+<div class="group-adv-1">
+  <div class="block-adv"><p>Работаем быстро</p> <i class="fa fa-rocket" aria-hidden="true"></i> </div>
+  <div class="block-adv"><p>Большой опыт</p>  <i class="fa fa-thumbs-up" aria-hidden="true"></i> </div>
+</div>
+<div class="group-adv-2">
+  <div class="block-adv"><p>Сдаем в срок</p>  <i class="fa fa-hourglass-half" aria-hidden="true"></i> </div>
+  <div class="block-adv"><p>Качественная работа</p>  <i class="fa fa-star" aria-hidden="true"></i> </div>
+</div>
+</div>
+<div class="last-block"><p>Доступные цены</p> <i class="fa fa-money" aria-hidden="true"></i> </div>
+ </div>
+  </div>
+
+<!--Услуги-->
+
+<div class="services">
+  <h2 class="services-title">Наши услуги</h2>
+<div class="wrapper">
+  <div class="clearfix"> 
+
+  <!--#1-->
+  <div class="card-services">
+   <div class="block-top"><img src="images/wall.jpg" width="400px"> <div class="cover-services"></div> </div>
+   <div class="block-bottom">
+     <h3>Демонтаж стен</h3>
+     <p>от 150р/м<sup>2</sup></p>
+     <button onclick="showpopup('Демонтаж Стен', document.getElementById('bottom-form'))">Заказать</button>
+   </div>
+  </div>
+  <!--#2-->
+  <div class="card-services">
+   <div class="block-top"><img src="images/screed.jpg" width="400px"> <div class="cover-services"></div> </div>
+   <div class="block-bottom">
+     <h3>Демонтаж стяжки</h3>
+     <p>от 175р/м<sup>2</sup></p>
+     <button onclick="showpopup('Демонта Стяжки', document.getElementById('bottom-form'))">Заказать</button>
+   </div>
+  </div>
+  <!--#3-->
+
+<div class="card-services">
+<div class="block-top"><img src="images/tiles.jpg" width="400px"> <div class="cover-services"></div> </div>
+<div class="block-bottom">
+<h3>Демонтаж плитки</h3>
+<p>от 97р/м<sup>2</sup></p>
+<button onclick="showpopup('Демонтаж плитки', document.getElementById('bottom-form'))">Заказать</button>
+</div>
+</div>
+<!--#4-->
+<div class="card-services">
+<div class="block-top"><img src="images/plaster.jpg" width="400px"> <div class="cover-services"></div> </div>
+<div class="block-bottom">
+<h3>Демонтаж штукатурки</h3>
+<p>от 90р/м<sup>2</sup></p>
+<button onclick="showpopup('Демонтаж штукатурки', document.getElementById('bottom-form'))">Заказать</button>
+</div>
+</div>
+
+
+<div class="card-services">
+<div class="block-top"><img src="images/pol.jpg" width="400px" height="240"> <div class="cover-services"></div> </div>
+<div class="block-bottom">
+<h3>Демонтаж полов</h3>
+<p>от 220р/м<sup>2</sup></p>
+<button onclick="showpopup('Разбор метало-конструкций', document.getElementById('bottom-form'));">Заказать</button>
+</div>
+</div>
+
+<div class="card-services">
+<div class="block-top"><img src="images/podokn.jpg" width="400px" height="240"> <div class="cover-services"></div> </div>
+<div class="block-bottom">
+<h3>Демонтаж подоконного блока</h3>
+<p>от 4500р/шт</p>
+<button onclick="showpopup('Демонтаж подоконного блока', document.getElementById('bottom-form'));">Заказать</button>
+</div>
+</div>
+
+
+<div class="card-services">
+<div class="block-top"><img src="images/musor.jpg" width="400px" height="240"> <div class="cover-services"></div> </div>
+<div class="block-bottom">
+<h3>Сбор и вывоз мусора</h3>
+<p>от 1600р</p>
+<button onclick="showpopup('Сбор и вывоз мусора', document.getElementById('bottom-form'));">Заказать</button>
+</div>
+</div>
+
+
+<div class="card-services">
+<div class="block-top"><img src="images/house.jpg" width="400px"> <div class="cover-services"></div> </div>
+<div class="block-bottom">
+<h3>Разбор дачных домиков</h3>
+<p>от 5000р</p>
+<button onclick="showpopup('Раззбор дачных домиков', document.getElementById('bottom-form'))">Заказать</button>
+</div>
+</div>
+
+
+<div class="card-services">
+<div class="block-top"><img src="images/shop.jpg" width="400px"> <div class="cover-services"></div> </div>
+<div class="block-bottom">
+<h3>Демонтаж в магазинах</h3>
+<p>от 450р/м<sup>2</sup></p>
+<button onclick="showpopup('Демонтаж в магазинах', document.getElementById('bottom-form'))" >Заказать</button>
+</div>
+</div>
+
+<div class="card-services">
+<div class="block-top"><img src="images/mens.jpg" width="400px" height="240"> <div class="cover-services"></div> </div>
+<div class="block-bottom">
+<h3>Услуги разнорабочих</h3>
+<p>от 650р</p>
+<button onclick="showpopup('Услуги разнорабочих', document.getElementById('bottom-form'));">Заказать</button>
+</div>
+</div>
+
+</div>
+
+ </div> 
+</div>
+
+<div class="example-slides">
+  <div class="wrapper">
+
+    <h2 class="title-exmpl">Примеры наших работ</h2>
+     
+    <div class="slideshow-container">
+   <!-- 1 слайдер -->
+   <div class="mySlides fade">
+    <!--<div class="numbertext"></div>-->
+    <img src="images/img1.jpg" style="width:100%" alt="" height="">
+   <!-- <div class="text">text</div> -->
+   </div>
+     <!-- 2 слайдер -->
+   <div class="mySlides fade">
+   <!-- <div class="numbertext"></div> -->
+    <img src="images/img2.jpg" style="width:100%" alt="" height="">
+    <!-- <div class="text">text</div> -->
+   </div>
+     <!-- 3 слайдер -->
+   <div class="mySlides fade">
+     <!--   <div class="numbertext"></div> -->
+    <img src="images/img3.jpg" style="width:100%" alt="" height="">
+    <!-- <div class="text">text</div> -->
+   </div>
+   
+
+   <!-- 4 слайдер -->
+   <div class="mySlides fade">
+     <img src="images/img4.jpg" style="width:100%" alt="" height="">
+   </div>
+
+     <!-- 5 слайдер -->
+   <div class="mySlides fade">
+      <img src="images/img5.jpg" style="width:100%" alt="" height="">
+    </div>
+
+    <!-- 6 слайдер -->
+   <div class="mySlides fade">
+      <img src="images/img6.jpg" style="width:100%" alt="" height="">
+    </div>
+
+    <!-- 7 слайдер -->
+   <div class="mySlides fade">
+      <img src="images/img7.jpg" style="width:100%" alt="" height="">
+    </div>
+
+    <!-- 8 слайдер -->
+   <div class="mySlides fade">
+      <img src="images/img8.jpg" style="width:100%" alt="" height="">
+    </div>
+
+    <!-- 9 слайдер -->
+  <div class="mySlides fade">
+    <img src="images/img9.jpg" style="width:100%" alt="" height="">
+  </div>
+   <!-- 10 слайдер -->
+<div class="mySlides fade">
+<img src="images/img10.jpg" style="width:100%" alt="" height="">
+</div>
+   <!-- 11 слайдер -->
+  <div class="mySlides fade">
+    <img src="images/img11.jpg" style="width:100%" alt="" height="">
+  </div>
+   <!-- 12 слайдер -->
+  <div class="mySlides fade">
+   <img src="images/img12.jpg" style="width:100%" alt="" height="">
+  </div>
+
+<!-- 13 слайдер -->
+<div class="mySlides fade">
+<img src="images/img13.jpg" style="width:100%" alt="" height="">
+</div>
+
+<!-- 14 слайдер -->
+<div class="mySlides fade">
+<img src="images/img14.jpg" style="width:100%" alt="" height="">
+</div>
+
+<!-- 15 слайдер -->
+<div class="mySlides fade">
+<img src="images/img15.jpg" style="width:100%" alt="" height="">
+</div>
+
+
+<!-- 16 слайдер -->
+<div class="mySlides fade">
+<img src="images/img16.jpg" style="width:100%" alt="" height="">
+</div>
+
+<!-- 17 слайдер -->
+<div class="mySlides fade">
+<img src="images/img17.jpg" style="width:100%" alt="" height="">
+</div>
+
+<!-- 18 слайдер -->
+<div class="mySlides fade">
+<img src="images/img18.jpg" style="width:100%" alt="" height="">
+</div>
+
+<!-- 19 слайдер -->
+<div class="mySlides fade">
+<img src="images/img19.jpg" style="width:100%" alt="" height="">
+</div>
+
+<!-- 20 слайдер -->
+<div class="mySlides fade">
+<img src="images/img20.jpg" style="width:100%" alt="" height="">
+</div>
+
+<!-- 21 слайдер -->
+<div class="mySlides fade">
+<img src="images/img21.jpg" style="width:100%" alt="" height="">
+</div>
+
+
+     <a class="prev" onclick="plusSlides(-1);">&#10094</a>
+     <a class="next" onclick="plusSlides(1);">&#10095</a>
+</div>
+<br>
+
+<div style="text-align: center">
+  <span class="dot" onclick="currentSlide(1);"></span>
+  <span class="dot" onclick="currentSlide(2);"></span>
+  <span class="dot" onclick="currentSlide(3);"></span>
+  <span class="dot" onclick="currentSlide(4);"></span>
+  <span class="dot" onclick="currentSlide(5);"></span>
+  <span class="dot" onclick="currentSlide(6);"></span>
+  <span class="dot" onclick="currentSlide(7);"></span>
+  <span class="dot" onclick="currentSlide(8);"></span>
+<span class="dot" onclick="currentSlide(9);"></span>
+<span class="dot" onclick="currentSlide(10);"></span>
+<span class="dot" onclick="currentSlide(11);"></span>
+<span class="dot" onclick="currentSlide(12);"></span>
+<span class="dot" onclick="currentSlide(13);"></span>
+<span class="dot" onclick="currentSlide(14);"></span>
+<span class="dot" onclick="currentSlide(15);"></span>
+<span class="dot" onclick="currentSlide(16);"></span>
+<span class="dot" onclick="currentSlide(17);"></span>
+<span class="dot" onclick="currentSlide(18);"></span>
+<span class="dot" onclick="currentSlide(19);"></span>
+<span class="dot" onclick="currentSlide(20);"></span>
+<span class="dot" onclick="currentSlide(21);"></span>
+
+
+
+</div>
+
+  </div>
+</div>
+
+
+
+
+<footer class="footer-page">
+  <div class="block-footer-1"></div>
+  <div class="block-footer-2">
+    <div class="rotate-label">Проконсультироваться</div>
+  </div>
+
+  <div class="wrapper">
+     <div class="container-form">
+     <form class="feedback-form"  action="mail.php" method="POST" id="bottom-form">
+ 
+        <!-- Hidden Required Fields
+		<input type="hidden" name="project_name" value="Site Name">
+		<input type="hidden" name="admin_email" value="saidullaev9811@gmai.com">
+		<input type="hidden" name="form_subject" value="Form Subject">
+		END Hidden Required Fields -->
+       
+
+      <label class="title-form">Рассчитать стоимость</label>
+      <div class="group-form">
+        <input type="text" name="user_name" placeholder="Имя" required><br>
+        <input type="number" name="user_phone" placeholder="Телефон" required><br>
+        <input type="email" name="user_email" placeholder="E-MAIL"><br>
+        <textarea placeholder="Комментарий" name="user_comment"></textarea><br>
+        <input type="submit" name="send" value="Oтправить">
+        <a href="price.docx" class="download">смотреть прайс</a>
+
+
+      </div>
+     </form>
+        </div>
+         </div>
+         <div class="lamp-footer"></div>
+
+         <div class="bottom-footer clearfix">
+        
+        <div class="copyright">
+          <p style="color: white;">© 2017 демонтаж-групп.рф</p>
+        </div>
+
+        <div class="starlabs">
+           <p style="color: white;">г. Ярославль</p>
+<p><a href="tel:+79108218246" style="color: white; text-decoration:none;">+7 (910) 821-82-46</a></p>
+           <p style="color: white;"> <a href="mailto:yardemontage@mail.ru?subject=order" style="color: white; text-decoration:none;">yardemontage@mail.ru</a></p>
+       </div>
+
+<div class="group-social-footer">
+<div class="vk social-icon"><a href="https://vk.com/yardemgroupp" style="color:white;"><i class="fa fa-vk"></i></a></div>
+<div class="instagram social-icon"><a href="https://www.instagram.com/demontagegroupp76/" style="color:white;"><i class="fa fa-instagram"></i></a></div>
+</div>
+    
+
+</footer>
+
+
+
+
+
+<script src="jquery-3.2.1.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
